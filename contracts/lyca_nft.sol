@@ -16,7 +16,7 @@ contract Lyca is ERC721, ERC721Enumerable, Pausable, Ownable {
     uint256 public MINT_PRICE = 0.05 ether;
     uint public MAX_SUPPLY = 100;
 
-    constructor() ERC721("Lyca", "HM") {
+    constructor() ERC721("Lyca", "LYC") {
         _tokenIdCounter.increment();  // start from 1 //
     }
 
